@@ -1,0 +1,136 @@
+WRITE 0 124
+Rectangle rejected: (inExistGt_0, 100, 1025, 1, 2)
+WRITE 0 124
+READ 0 124
+WRITE 124 327
+READ 124 327
+READ 0 124
+WRITE 0 124
+WRITE 124 327
+Rectangle inserted: (myRect, 1, 2, 3, 4)
+WRITE 0 124
+READ 0 124
+READ 0 124
+Rectangle not removed: myRect
+WRITE 0 124
+READ 0 124
+WRITE 124 326
+READ 124 326
+READ 0 124
+WRITE 0 124
+WRITE 124 326
+Rectangle inserted: (rect1, 1, 2, 3, 4)
+READ 0 124
+FREE 0 124
+WRITE 450 128
+READ 450 128
+READ 124 326
+READ 124 326
+WRITE 578 330
+READ 578 330
+READ 124 326
+WRITE 124 326
+READ 450 128
+WRITE 450 128
+WRITE 578 330
+Rectangle inserted: (rect2, 4, 3, 2, 1)
+READ 450 128
+READ 578 330
+READ 578 330
+WRITE 908 326
+READ 908 326
+READ 578 330
+WRITE 578 330
+WRITE 908 326
+Rectangle inserted: (rect3, 3, 5, 2, 2)
+SkipList dump:
+READ 450 128
+Node has depth 2, Value (null)
+READ 124 326
+Node has depth 1, Value (rect1, 1, 2, 3, 4)
+READ 578 330
+Node has depth 2, Value (rect2, 4, 3, 2, 1)
+READ 908 326
+Node has depth 1, Value (rect3, 3, 5, 2, 2)
+SkipList size is: 3
+Freelist Blocks:
+(0, 124)
+(1234, 302)
+WRITE 0 124
+READ 0 124
+WRITE 124 323
+READ 124 323
+READ 0 124
+WRITE 0 124
+WRITE 124 323
+Rectangle inserted: (r1, 1, 2, 3, 4)
+READ 0 124
+FREE 0 124
+WRITE 447 128
+READ 447 128
+READ 124 323
+WRITE 575 327
+READ 575 327
+READ 447 128
+WRITE 447 128
+READ 447 128
+WRITE 447 128
+WRITE 575 327
+Rectangle inserted: (r1, 4, 3, 2, 1)
+READ 447 128
+READ 575 327
+READ 575 327
+READ 575 327
+READ 575 327
+READ 124 323
+Rectangles found:
+(r1, 4, 3, 2, 1)
+(r1, 1, 2, 3, 4)
+WRITE 0 124
+READ 0 124
+WRITE 124 326
+READ 124 326
+READ 0 124
+WRITE 0 124
+WRITE 124 326
+Rectangle inserted: (rect1, 1, 2, 3, 4)
+READ 0 124
+FREE 0 124
+WRITE 450 128
+READ 450 128
+READ 124 326
+READ 124 326
+WRITE 578 330
+READ 578 330
+READ 124 326
+WRITE 124 326
+READ 450 128
+WRITE 450 128
+WRITE 578 330
+Rectangle inserted: (rect2, 4, 3, 2, 1)
+READ 450 128
+READ 578 330
+READ 578 330
+WRITE 908 326
+READ 908 326
+READ 578 330
+WRITE 578 330
+WRITE 908 326
+Rectangle inserted: (rect3, 3, 5, 2, 2)
+USAGE: regionsearch x y w h
+Error parsing command: java.lang.NumberFormatException: For input string: "dank"
+Rectangle Rejected: (-1, -1, -1, -1)
+Rectangles intersecting region (-1, -1, 1, 1):
+READ 450 128
+READ 450 128
+READ 124 326
+READ 124 326
+READ 124 326
+READ 578 330
+READ 578 330
+READ 578 330
+READ 908 326
+READ 908 326
+WRITE 0 124
+Intersections pairs: 
+READ 0 124

@@ -1,0 +1,58 @@
+WRITE 0 6
+WRITE 6 10
+WRITE 16 7
+READ 0 6
+READ 0 6
+READ 0 6
+READ 6 10
+READ 6 10
+READ 6 10
+WRITE 0 6
+WRITE 6 10
+WRITE 16 7
+Freelist Blocks:
+(23, 1)
+WRITE 23 7
+Freelist Blocks:
+(30, 2)
+FREE 6 10
+Freelist Blocks:
+(6, 10)
+(30, 2)
+WRITE 6 6
+Freelist Blocks:
+(12, 4)
+(30, 2)
+WRITE 30 6
+Freelist Blocks:
+(12, 4)
+(36, 4)
+WRITE 36 10
+Freelist Blocks:
+(12, 4)
+(46, 2)
+FREE 23 7
+Freelist Blocks:
+(12, 4)
+(23, 7)
+(46, 2)
+FREE 6 6
+Freelist Blocks:
+(6, 10)
+(23, 7)
+(46, 2)
+FREE 30 6
+Freelist Blocks:
+(6, 10)
+(23, 13)
+(46, 2)
+WRITE 6 6
+Freelist Blocks:
+(12, 4)
+(23, 13)
+(46, 2)
+WRITE 12 3
+Freelist Blocks:
+(15, 1)
+(23, 13)
+(46, 2)
